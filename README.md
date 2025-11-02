@@ -1,8 +1,10 @@
 
 NormalLuser here.
-I found this code posted by realdmx and Modified Monty On the Run by Rob Hubbard.
-Ben Eater needed something to show off the SID chip he added to his breadboard 6502.
-This version runs stand-alone using the VIA for timing, and the $4800 mapping that Ben uses for the chip.
+Ben Eater said on a Patreon post that he needed something to show off the SID chip he added to his breadboard 6502 project.
+I found this code posted by realdmx and Modified the 'Monty On the Run' .SID by Rob Hubbard.
+This version runs stand-alone on the BE6502 using the VIA for timing, and the $4800 mapping that Ben uses for the chip.
+If you have the VGA project connected and have the Vsync hooked up to the NMI pin of the CPU you can comment out the 'Setup60HzTimer' routine.
+The 65c02 WAI command that is used responds to both IRQ and NMI, so other changes are needed.
 
 <https://github.com/NormalLuser/BE6502_SidPlayer/blob/main/Hubbard_Rob/MontyOnTheRun_BE6502.asm>
 
