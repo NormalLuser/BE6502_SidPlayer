@@ -82,7 +82,9 @@ init
 play
 	;jmp playmusic
 	JSR playmusic
-	WAI ;Kowalski simulator does not allow WAI on 65c02. Comment out to . 
+    ; WAI below waits for either the VIA to trigger an IRQ, or for a Vsync NMI from VGA project. 
+    ; Kowalski simulator does not allow WAI on 65c02. Comment out to test. 
+	WAI ;Is it time for another set of notes?
 	JMP play
 	
 	
