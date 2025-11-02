@@ -1,5 +1,6 @@
 
 NormalLuser here.
+
 Ben Eater said on a Patreon post that he needed something to show off the SID chip he added to his breadboard 6502 project.
 I found this code posted by realdmx and Modified the 'Monty On the Run' .SID by Rob Hubbard.
 This version runs stand-alone on the BE6502 using the VIA for timing, and the $4800 mapping that Ben uses for the chip.
