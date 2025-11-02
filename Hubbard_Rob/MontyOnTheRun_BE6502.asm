@@ -63,7 +63,7 @@ T1L_H    = VIA_BASE + $5   ; Timer 1 Latch High (same as T1C_H)
 ; This is because we will use a WDC 65C02 WAI instruction. 
 ; It allows the CPU to wait for a interrupt from any source and then continue.
 ; Easy!
-Init60HzTimer:		; 1Mhz system clock needs VIA T1 at ~8331
+Setup60HzTimer:		    ; 1Mhz system clock needs VIA T1 at ~8331
     SEI                 ; Disable interrupt
     LDA #$C0            ; Enable VIA T1 interrupt 
     STA IER             ; 
