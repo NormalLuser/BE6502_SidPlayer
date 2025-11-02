@@ -3,8 +3,10 @@ NormalLuser here.
 I found this code posted by realdmx and Modified Monty On the Run by Rob Hubbard.
 Ben Eater needed something to show off the SID chip he added to his breadboard 6502.
 This version runs stand-alone using the VIA for timing, and the 4800 mapping that Ben uses for the chip.
-Enjoy!
 
+<https://github.com/NormalLuser/BE6502_SidPlayer/blob/main/Hubbard_Rob/MontyOnTheRun_BE6502.asm>
+
+Enjoy!
 
 Org info from realdmx: 
 # C64_6581_SID_Players
