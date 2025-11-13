@@ -13,7 +13,7 @@ The 65c02 WAI command that is used responds to both IRQ and NMI, so no other cha
 
 You can output a 'Woz' file for pasting into Woz Monitor with this:
 vasm6502_oldstyle -Fwoz -dotdir -wdc02 -L Listing.txt MontyOnTheRun_BE6502.asm
-<https://github.com/NormalLuser/BE6502_SidPlayer/blob/main/Hubbard_Rob/MontyOnTheRun_BE6502_Woz.txt>
+<https://github.com/NormalLuser/BE6502_SidPlayer/blob/main/MontyOnTheRun_BE6502_Woz.txt>
 
 
 See Ben's video about the SID and listen to the music at the end here:
