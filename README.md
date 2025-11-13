@@ -9,7 +9,7 @@ The 65c02 WAI command that is used responds to both IRQ and NMI, so no other cha
 
 **** Fixed to use 50Hz timer instead of 60Hz!! ****
 
-<https://github.com/NormalLuser/BE6502_SidPlayer/blob/main/Hubbard_Rob/MontyOnTheRun_BE6502.asm>
+<https://github.com/NormalLuser/BE6502_SidPlayer/blob/main/MontyOnTheRun_BE6502.asm>
 
 You can output a 'Woz' file for pasting into Woz Monitor with this:
 vasm6502_oldstyle -Fwoz -dotdir -wdc02 -L Listing.txt MontyOnTheRun_BE6502.asm
